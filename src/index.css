@@ -1,0 +1,24 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+border: 2px solid black;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.invoice-container{
+border: 2px solid black;
+width: 50%;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 500px;
+} */

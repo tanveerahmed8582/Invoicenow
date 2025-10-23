@@ -1,0 +1,10 @@
+.title-container {
+  text-align: center;
+}
+
+.title-container h1 {
+  font-size: 36px;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
