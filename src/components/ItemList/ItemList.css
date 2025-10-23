@@ -4,6 +4,7 @@
   border-radius: 10px;
   padding: 15px;
   background-color: #fafafa;
+  overflow-x: auto; /* 👈 Important for small screens */
 }
 
 .itemlist h3 {
@@ -15,6 +16,7 @@
 .itemlist table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 600px; /* 👈 Prevent table breaking on small screens */
 }
 
 .itemlist th,
@@ -22,6 +24,7 @@
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
+  font-size: 15px;
 }
 
 .itemlist th {
@@ -33,7 +36,7 @@
   background-color: #f2f2f2;
 }
 
-.para{
+.para {
   text-align: center;
 }
 
@@ -64,7 +67,6 @@
   background-color: #c82333;
 }
 
-
 .total-section {
   margin-top: 20px;
   text-align: right;
@@ -93,4 +95,30 @@
 
 .pdf-btn:hover {
   background-color: #0056b3;
+}
+
+/* 🔹 Responsive Layout */
+@media (max-width: 768px) {
+  .itemlist {
+    padding: 10px;
+  }
+
+  .itemlist th,
+  .itemlist td {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .total-section {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .pdf-section {
+    text-align: center;
+  }
+
+  .pdf-btn {
+    width: 100%;
+  }
 }

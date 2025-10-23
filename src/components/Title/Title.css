@@ -8,3 +8,16 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
+/* 🔹 Responsive Layout */
+@media (max-width: 768px) {
+  .title-container h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-container h1 {
+    font-size: 22px;
+  }
+}
